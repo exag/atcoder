@@ -12,7 +12,7 @@ input = stdin.readline
 # A, B = input().strip().split()
 # L = input().strip().split()
 # dp = [[0 for _ in range(W)] for _ in range(H)]
-# E.append(tuple(map(int, input().split())))
+# PY = [tuple(map(int, input().split())) for _ in range(M)]
 
 # INF = float('inf')
 # MOD = 10**9+7
@@ -26,10 +26,5 @@ input = stdin.readline
 # import sys
 # def input():
 #     return sys.stdin.readline()[:-1]
-
-N, A, B, C = map(int, input().split())
-
-L = [int(input()) for _ in range(N)]
-
 
 
