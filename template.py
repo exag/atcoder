@@ -12,6 +12,14 @@ input = stdin.readline
 # A, B = input().strip().split()
 # L = input().strip().split()
 # dp = [[0 for _ in range(W)] for _ in range(H)]
+# E.append(tuple(map(int, input().split())))
+
+# INF = float('inf')
+# MOD = 10**9+7
+
+# import heapq
+# from collections import deque
+# from math import ceil
 # --------------------
 
 # pypy で書くと早くなるらしい
