@@ -4,9 +4,9 @@ def make_753number(n):
     if '7' in s and '5' in s and '3' in s:
         n753.add(n)
     if n <= 10**9:
-        make_753number(10 * n + 7)
-        make_753number(10 * n + 5)
-        make_753number(10 * n + 3)
+        make_753number(n * 10 + 7)
+        make_753number(n * 10 + 5)
+        make_753number(n * 10 + 3)
 
 
 n753 = set()
