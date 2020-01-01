@@ -26,7 +26,7 @@ for s in range(1 << N):
     for i in range(N):
         # iビット目が立っているか
         if s >> i & 1:
-            # スイッチを押して、つながった電球の状態を反転させる
+            # i番目のスイッチが付いていれば、つながった電球の状態を反転させる
             lighting ^= a[i]
     # 各スイッチを押した後の電球の状態が理想と一致するか
     if lighting == expected:
