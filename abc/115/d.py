@@ -1,3 +1,7 @@
+"""
+解説通り
+https://img.atcoder.jp/abc115/editorial.pdf
+"""
 N, X = map(int, input().split())
 
 a, p = [1], [1]
@@ -7,6 +11,9 @@ for i in range(N):
 
 
 def f(N, X):
+    if N == 0:
+        return 1
+
     if X == 1:
         return 0
 
