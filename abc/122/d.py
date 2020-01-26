@@ -1,5 +1,6 @@
 """DFS(メモ化再帰)
-
+解説放送はDPで解いている
+https://www.youtube.com/watch?v=w2AEXSloYk8
 """
 from functools import lru_cache
 
