@@ -1,3 +1,5 @@
+"""累積和
+"""
 from itertools import accumulate
 
 
