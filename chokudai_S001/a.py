@@ -1,0 +1,1 @@
+print(max(sorted(map(int, input().split()))))
