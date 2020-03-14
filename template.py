@@ -1,5 +1,3 @@
-from ansible.modules.files.unarchive import MOD_TIME_DIFF_RE
-
 stdin = open("./sample.txt")
 input = stdin.readline
 
@@ -14,8 +12,8 @@ input = stdin.readline
 # from numpy import cumsum  # 累積和
 
 # import sys
+# input = sys.stdin.readline
 # sys.setrecursionlimit(10**7)
-# input = sys.stdin.readline #for input speed
 
 # INF = float('inf')
 # MOD = 10**9+7
@@ -33,3 +31,5 @@ input = stdin.readline
 # N, M = map(int, input().split())
 # N = int(input())
 # --------------------
+
+
