@@ -29,6 +29,7 @@ for i in range(N):
         nj = j + a
         if nj < T:
             dp[i + 1][nj] = max(dp[i + 1][nj], dp[i][j] + b)
+    # i番目のものを最後の食べるときの答え
     now = dp[i][T - 1] + b
     ans = max(ans, now)
 
