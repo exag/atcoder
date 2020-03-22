@@ -8,7 +8,7 @@ if A >= K:
     print(1)
     exit()
 p = A - B
-if p < 0:
+if p <= 0:
     print(-1)
     exit()
 
